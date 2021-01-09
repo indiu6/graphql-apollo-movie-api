@@ -2,6 +2,10 @@
 
 This is used for https://github.com/indiu6/graphql-apollo-react-movie
 
+## 'yarn start' here
+
+then go to above project, 'yarn start' in there to start app without error msg
+
 ## install these instead babel or something,
 
 yarn add typescript

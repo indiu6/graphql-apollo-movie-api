@@ -18,6 +18,6 @@ touch index.ts
 
 ## Movie REST API
 
-### this link is alive on Jan 09 2021
+### This link was alive on Jan 09 2021
 
 https://yts.mx/api/v2/list_movies.json

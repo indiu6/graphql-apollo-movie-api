@@ -1,4 +1,3 @@
-// const people = require('./db').default;
 import { getMovies } from './db.js';
 
 const resolvers = {
@@ -7,7 +6,6 @@ const resolvers = {
   },
 };
 
-// module.exports = resolvers;
 export default resolvers;
 
 //todo Step 5: Define a resolver

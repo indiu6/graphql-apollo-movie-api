@@ -15,7 +15,6 @@ const typeDefs = gql`
   }
 `;
 
-// module.exports = typeDefs;
 export default typeDefs;
 
 //todo Step 3: Define your GraphQL schema

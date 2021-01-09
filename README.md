@@ -1,4 +1,4 @@
-# Wrapping a REST API with GraphQL
+# Wrapping a REST API with GraphQL using Apollo Server
 
 This is used for https://github.com/indiu6/graphql-apollo-react-movie
 

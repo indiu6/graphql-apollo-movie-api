@@ -1,8 +1,8 @@
 # Wrapping a REST API with GraphQL using Apollo Server
 
-This is used for https://github.com/indiu6/graphql-apollo-react-movie
+This is used for [Movie App](https://github.com/indiu6/graphql-apollo-react-movie)
 
-## 'yarn start' here
+## 'npm start' here before start Movie App
 
 then go to above project, 'yarn start' in there to start app without error msg
 

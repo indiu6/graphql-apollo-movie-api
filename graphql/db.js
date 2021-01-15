@@ -2,29 +2,13 @@
 // Now that we've defined the structure of our data, we can define the data itself. Apollo Server can fetch data from any source you connect to (including a database, a REST API, a static object storage service, or even another GraphQL server). For the purposes of this tutorial, we'll just hardcode some example data.
 
 //todo Wrapping a REST API with GraphQL
-// import fetch from 'node-fetch';
+// import fetch from 'node-fetch'; // switch to axios
 
 import axios from 'axios';
 const BASE_URL = 'https://yts.mx/api/v2/';
 const LIST_MOVIES_URL = `${BASE_URL}list_movies.json`;
 const MOVIE_DETAILS_URL = `${BASE_URL}movie_details.json`;
 const MOVIE_SUGGESTIONS_URL = `${BASE_URL}movie_suggestions.json`;
-
-// const API_URL = 'https://yts.mx/api/v2/list_movies.json?';
-
-// export const getMovies = (limit, rating) => {
-//   let REQUEST_URL = API_URL;
-//   if (limit > 0) {
-//     REQUEST_URL += `limit=${limit}`;
-//   }
-//   if (rating > 0) {
-//     REQUEST_URL += `&minimum_rating=${rating}`;
-//   }
-
-//   return fetch(REQUEST_URL)
-//     .then((res) => res.json())
-//     .then((json) => json.data.movies);
-// };
 
 export const getMovies = async (limit, rating) => {
   const {
@@ -67,6 +51,22 @@ export const getSuggestions = async (id) => {
 };
 
 //todo Below was practice
+
+// const API_URL = 'https://yts.mx/api/v2/list_movies.json?';
+
+// export const getMovies = (limit, rating) => {
+//   let REQUEST_URL = API_URL;
+//   if (limit > 0) {
+//     REQUEST_URL += `limit=${limit}`;
+//   }
+//   if (rating > 0) {
+//     REQUEST_URL += `&minimum_rating=${rating}`;
+//   }
+
+//   return fetch(REQUEST_URL)
+//     .then((res) => res.json())
+//     .then((json) => json.data.movies);
+// };
 
 // let movies = [
 //   {
